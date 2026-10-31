@@ -1,0 +1,38 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background: #f4f6f8;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+select,
+button {
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+#resultado {
+  margin-top: 1rem;
+  font-weight: 600;
+}

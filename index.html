@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navegación ESPOCH con Dijkstra</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Navegación ESPOCH</h1>
+      <p>Prototipo académico basado en teoría de grafos y el algoritmo de Dijkstra.</p>
+
+      <form id="form-ruta">
+        <label>
+          Origen
+          <select id="origen"></select>
+        </label>
+
+        <label>
+          Destino
+          <select id="destino"></select>
+        </label>
+
+        <button type="submit">Calcular ruta</button>
+      </form>
+
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <script type="module" src="./src/ui/app.js"></script>
+</body>
+</html>

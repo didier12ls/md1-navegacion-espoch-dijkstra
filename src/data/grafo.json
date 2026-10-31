@@ -1,0 +1,18 @@
+{
+  "EntradaPrincipal": [
+    { "nodo": "InterseccionA", "peso": 120 }
+  ],
+  "InterseccionA": [
+    { "nodo": "EntradaPrincipal", "peso": 120 },
+    { "nodo": "Biblioteca", "peso": 90 },
+    { "nodo": "FacultadInformatica", "peso": 160 }
+  ],
+  "Biblioteca": [
+    { "nodo": "InterseccionA", "peso": 90 },
+    { "nodo": "FacultadInformatica", "peso": 110 }
+  ],
+  "FacultadInformatica": [
+    { "nodo": "InterseccionA", "peso": 160 },
+    { "nodo": "Biblioteca", "peso": 110 }
+  ]
+}
